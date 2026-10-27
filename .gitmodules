@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/tunwit/ApiMirror-Frontend.git
+[submodule "backend]"]
+	path = backend]
+	url = https://github.com/tunwit/ApiMirror-Backend.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/tunwit/ApiMirror-Backend.git
