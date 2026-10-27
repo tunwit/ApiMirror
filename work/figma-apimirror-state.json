@@ -1,0 +1,879 @@
+{
+  "sessionId": "ec0c016a-150d-4317-bf3b-de9cddccdff6",
+  "fileKey": "DGpgP53tZfovKkkuMGSFSL",
+  "foundation": {
+    "pageId": "0:1",
+    "shelfId": "3:44",
+    "buttons": {
+      "Primary": "3:48",
+      "Secondary": "3:50",
+      "Quiet": "3:52",
+      "Disabled": "3:54",
+      "Loading": "3:56",
+      "Focus": "3:58"
+    },
+    "fields": {
+      "Default": "3:61",
+      "Focus": "3:65",
+      "Error": "3:69"
+    },
+    "styles": {
+      "title": "S:644ea982eb1fc0ee012ffd3345ab8aa266538254,",
+      "heading": "S:2562d468ecafb56b3ffd0e7e06b2d71bcac99f2f,",
+      "section": "S:b19546a0b2b770c442398dc441c6d92660827603,",
+      "body": "S:0a00161c274c9af50e6d7ee43845d3219e2ada9c,",
+      "label": "S:c6f2d0d46ee74d2412723e53f5dcaf1ad76671a3,",
+      "small": "S:74e549706b7fca8c886e1d71057dea989ef5864d,",
+      "code": "S:1bda2a677bf0633b129d3569c8493cea09f5faa2,"
+    },
+    "variables": {
+      "ink": "VariableID:3:5",
+      "white": "VariableID:3:7",
+      "canvas": "VariableID:3:9",
+      "subtle": "VariableID:3:11",
+      "line": "VariableID:3:13",
+      "muted": "VariableID:3:15",
+      "soft": "VariableID:3:17",
+      "error": "VariableID:3:19",
+      "errorBg": "VariableID:3:21",
+      "success": "VariableID:3:23",
+      "successBg": "VariableID:3:25",
+      "s4": "VariableID:3:26",
+      "s8": "VariableID:3:27",
+      "s12": "VariableID:3:28",
+      "s16": "VariableID:3:29",
+      "s24": "VariableID:3:30",
+      "s32": "VariableID:3:31",
+      "s40": "VariableID:3:32",
+      "s48": "VariableID:3:33",
+      "r6": "VariableID:3:34",
+      "r8": "VariableID:3:35",
+      "r12": "VariableID:3:36"
+    },
+    "createdNodeIds": [
+      "S:644ea982eb1fc0ee012ffd3345ab8aa266538254,",
+      "S:2562d468ecafb56b3ffd0e7e06b2d71bcac99f2f,",
+      "S:b19546a0b2b770c442398dc441c6d92660827603,",
+      "S:0a00161c274c9af50e6d7ee43845d3219e2ada9c,",
+      "S:c6f2d0d46ee74d2412723e53f5dcaf1ad76671a3,",
+      "S:74e549706b7fca8c886e1d71057dea989ef5864d,",
+      "S:1bda2a677bf0633b129d3569c8493cea09f5faa2,",
+      "3:44",
+      "3:45",
+      "3:46",
+      "3:47",
+      "3:49",
+      "3:48",
+      "3:51",
+      "3:50",
+      "3:53",
+      "3:52",
+      "3:55",
+      "3:54",
+      "3:57",
+      "3:56",
+      "3:59",
+      "3:58",
+      "3:60",
+      "3:62",
+      "3:64",
+      "3:63",
+      "3:61",
+      "3:66",
+      "3:68",
+      "3:67",
+      "3:65",
+      "3:70",
+      "3:72",
+      "3:71",
+      "3:73",
+      "3:69",
+      "3:74",
+      "3:77",
+      "3:75",
+      "3:76",
+      "3:80",
+      "3:78",
+      "3:79",
+      "3:83",
+      "3:81",
+      "3:82",
+      "3:86",
+      "3:84",
+      "3:85",
+      "3:89",
+      "3:87",
+      "3:88",
+      "3:92",
+      "3:90",
+      "3:91",
+      "3:95",
+      "3:93",
+      "3:94"
+    ],
+    "createdVariableIds": [
+      "VariableID:3:4",
+      "VariableID:3:5",
+      "VariableID:3:6",
+      "VariableID:3:7",
+      "VariableID:3:8",
+      "VariableID:3:9",
+      "VariableID:3:10",
+      "VariableID:3:11",
+      "VariableID:3:12",
+      "VariableID:3:13",
+      "VariableID:3:14",
+      "VariableID:3:15",
+      "VariableID:3:16",
+      "VariableID:3:17",
+      "VariableID:3:18",
+      "VariableID:3:19",
+      "VariableID:3:20",
+      "VariableID:3:21",
+      "VariableID:3:22",
+      "VariableID:3:23",
+      "VariableID:3:24",
+      "VariableID:3:25",
+      "VariableID:3:26",
+      "VariableID:3:27",
+      "VariableID:3:28",
+      "VariableID:3:29",
+      "VariableID:3:30",
+      "VariableID:3:31",
+      "VariableID:3:32",
+      "VariableID:3:33",
+      "VariableID:3:34",
+      "VariableID:3:35",
+      "VariableID:3:36"
+    ],
+    "collections": [
+      "VariableCollectionId:3:2",
+      "VariableCollectionId:3:3"
+    ],
+    "fontFamily": "Inter",
+    "monospace": "IBM Plex Mono"
+  },
+  "screens": [
+    {
+      "key": "login",
+      "id": "4:2",
+      "name": "Login",
+      "x": 160,
+      "y": 200,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "signup",
+      "id": "4:45",
+      "name": "Sign up",
+      "x": 1560,
+      "y": 200,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "forgot",
+      "id": "4:91",
+      "name": "Forgot password",
+      "x": 2960,
+      "y": 200,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "reset",
+      "id": "4:128",
+      "name": "Reset password",
+      "x": 4360,
+      "y": 200,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "dashboard",
+      "id": "5:6",
+      "name": "Projects dashboard",
+      "x": 160,
+      "y": 1240,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "dashboard-empty",
+      "id": "5:77",
+      "name": "Projects · first use",
+      "x": 1560,
+      "y": 1240,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "newproject",
+      "id": "5:123",
+      "name": "Create project",
+      "x": 2960,
+      "y": 1240,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "routes",
+      "id": "5:168",
+      "name": "Project · mock routes",
+      "x": 4360,
+      "y": 1240,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "newroute",
+      "id": "6:24",
+      "name": "Create mock route",
+      "x": 160,
+      "y": 2280,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "editroute",
+      "id": "6:135",
+      "name": "Edit route · valid request",
+      "x": 1560,
+      "y": 2280,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "test400",
+      "id": "6:249",
+      "name": "Edit route · missing required body",
+      "x": 2960,
+      "y": 2280,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "settings",
+      "id": "6:364",
+      "name": "Project settings",
+      "x": 4360,
+      "y": 2280,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "routes-empty",
+      "id": "7:43",
+      "name": "Project · no routes yet",
+      "x": 160,
+      "y": 3320,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "notfound",
+      "id": "7:99",
+      "name": "Page not found",
+      "x": 1560,
+      "y": 3320,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "forbidden",
+      "id": "7:130",
+      "name": "Project access denied",
+      "x": 2960,
+      "y": 3320,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "checkemail",
+      "id": "7:163",
+      "name": "Password recovery · check email",
+      "x": 4360,
+      "y": 3320,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "regenerate",
+      "id": "7:183",
+      "name": "Regenerate token · confirmation",
+      "x": 160,
+      "y": 4360,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "delete-project",
+      "id": "7:243",
+      "name": "Delete project · confirmation",
+      "x": 1560,
+      "y": 4360,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "key": "delete-route",
+      "id": "7:307",
+      "name": "Delete route · confirmation",
+      "x": 2960,
+      "y": 4360,
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "links": [
+    {
+      "id": "4:39",
+      "to": "forgot"
+    },
+    {
+      "id": "4:40",
+      "to": "dashboard"
+    },
+    {
+      "id": "4:44",
+      "to": "signup"
+    },
+    {
+      "id": "4:86",
+      "to": "dashboard"
+    },
+    {
+      "id": "4:90",
+      "to": "login"
+    },
+    {
+      "id": "4:123",
+      "to": "checkemail"
+    },
+    {
+      "id": "4:127",
+      "to": "login"
+    },
+    {
+      "id": "4:165",
+      "to": "login"
+    },
+    {
+      "id": "4:169",
+      "to": "login"
+    },
+    {
+      "id": "5:9",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:22",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:27",
+      "to": "login"
+    },
+    {
+      "id": "5:33",
+      "to": "newproject"
+    },
+    {
+      "id": "5:53",
+      "to": "routes"
+    },
+    {
+      "id": "5:48",
+      "to": "routes"
+    },
+    {
+      "id": "5:62",
+      "to": "routes"
+    },
+    {
+      "id": "5:57",
+      "to": "routes"
+    },
+    {
+      "id": "5:71",
+      "to": "routes"
+    },
+    {
+      "id": "5:66",
+      "to": "routes"
+    },
+    {
+      "id": "5:80",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:93",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:98",
+      "to": "login"
+    },
+    {
+      "id": "5:104",
+      "to": "newproject"
+    },
+    {
+      "id": "5:119",
+      "to": "newproject"
+    },
+    {
+      "id": "5:126",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:139",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:144",
+      "to": "login"
+    },
+    {
+      "id": "5:146",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:164",
+      "to": "routes-empty"
+    },
+    {
+      "id": "5:166",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:171",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:184",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:190",
+      "to": "routes"
+    },
+    {
+      "id": "5:194",
+      "to": "settings"
+    },
+    {
+      "id": "5:199",
+      "to": "login"
+    },
+    {
+      "id": "5:202",
+      "to": "dashboard"
+    },
+    {
+      "id": "5:209",
+      "to": "newroute"
+    },
+    {
+      "id": "5:239",
+      "to": "editroute"
+    },
+    {
+      "id": "5:231",
+      "to": "editroute"
+    },
+    {
+      "id": "5:250",
+      "to": "editroute"
+    },
+    {
+      "id": "5:242",
+      "to": "editroute"
+    },
+    {
+      "id": "5:261",
+      "to": "editroute"
+    },
+    {
+      "id": "5:253",
+      "to": "editroute"
+    },
+    {
+      "id": "5:272",
+      "to": "editroute"
+    },
+    {
+      "id": "5:264",
+      "to": "editroute"
+    },
+    {
+      "id": "5:283",
+      "to": "editroute"
+    },
+    {
+      "id": "5:275",
+      "to": "editroute"
+    },
+    {
+      "id": "5:294",
+      "to": "editroute"
+    },
+    {
+      "id": "5:286",
+      "to": "editroute"
+    },
+    {
+      "id": "5:305",
+      "to": "editroute"
+    },
+    {
+      "id": "5:297",
+      "to": "editroute"
+    },
+    {
+      "id": "5:316",
+      "to": "editroute"
+    },
+    {
+      "id": "5:308",
+      "to": "editroute"
+    },
+    {
+      "id": "6:27",
+      "to": "dashboard"
+    },
+    {
+      "id": "6:40",
+      "to": "dashboard"
+    },
+    {
+      "id": "6:46",
+      "to": "routes"
+    },
+    {
+      "id": "6:50",
+      "to": "settings"
+    },
+    {
+      "id": "6:55",
+      "to": "login"
+    },
+    {
+      "id": "6:62",
+      "to": "routes"
+    },
+    {
+      "id": "6:64",
+      "to": "routes"
+    },
+    {
+      "id": "6:115",
+      "to": "test400"
+    },
+    {
+      "id": "6:116",
+      "to": "settings"
+    },
+    {
+      "id": "6:124",
+      "to": "test400"
+    },
+    {
+      "id": "6:138",
+      "to": "dashboard"
+    },
+    {
+      "id": "6:151",
+      "to": "dashboard"
+    },
+    {
+      "id": "6:157",
+      "to": "routes"
+    },
+    {
+      "id": "6:161",
+      "to": "settings"
+    },
+    {
+      "id": "6:166",
+      "to": "login"
+    },
+    {
+      "id": "6:173",
+      "to": "routes"
+    },
+    {
+      "id": "6:175",
+      "to": "routes"
+    },
+    {
+      "id": "6:226",
+      "to": "test400"
+    },
+    {
+      "id": "6:227",
+      "to": "settings"
+    },
+    {
+      "id": "6:235",
+      "to": "test400"
+    },
+    {
+      "id": "6:247",
+      "to": "delete-route"
+    },
+    {
+      "id": "6:247",
+      "to": "delete-route"
+    },
+    {
+      "id": "6:252",
+      "to": "dashboard"
+    },
+    {
+      "id": "6:265",
+      "to": "dashboard"
+    },
+    {
+      "id": "6:271",
+      "to": "routes"
+    },
+    {
+      "id": "6:275",
+      "to": "settings"
+    },
+    {
+      "id": "6:280",
+      "to": "login"
+    },
+    {
+      "id": "6:287",
+      "to": "routes"
+    },
+    {
+      "id": "6:289",
+      "to": "routes"
+    },
+    {
+      "id": "6:340",
+      "to": "test400"
+    },
+    {
+      "id": "6:341",
+      "to": "settings"
+    },
+    {
+      "id": "6:349",
+      "to": "editroute"
+    },
+    {
+      "id": "6:362",
+      "to": "delete-route"
+    },
+    {
+      "id": "6:362",
+      "to": "delete-route"
+    },
+    {
+      "id": "6:367",
+      "to": "dashboard"
+    },
+    {
+      "id": "6:380",
+      "to": "dashboard"
+    },
+    {
+      "id": "6:386",
+      "to": "routes"
+    },
+    {
+      "id": "6:390",
+      "to": "settings"
+    },
+    {
+      "id": "6:395",
+      "to": "login"
+    },
+    {
+      "id": "6:430",
+      "to": "regenerate"
+    },
+    {
+      "id": "6:438",
+      "to": "delete-project"
+    },
+    {
+      "id": "7:46",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:59",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:65",
+      "to": "routes"
+    },
+    {
+      "id": "7:69",
+      "to": "settings"
+    },
+    {
+      "id": "7:74",
+      "to": "login"
+    },
+    {
+      "id": "7:80",
+      "to": "newroute"
+    },
+    {
+      "id": "7:91",
+      "to": "newroute"
+    },
+    {
+      "id": "7:102",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:115",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:120",
+      "to": "login"
+    },
+    {
+      "id": "7:128",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:133",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:146",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:151",
+      "to": "login"
+    },
+    {
+      "id": "7:159",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:161",
+      "to": "login"
+    },
+    {
+      "id": "7:177",
+      "to": "login"
+    },
+    {
+      "id": "7:181",
+      "to": "forgot"
+    },
+    {
+      "id": "7:182",
+      "to": "reset"
+    },
+    {
+      "id": "7:186",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:199",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:205",
+      "to": "routes"
+    },
+    {
+      "id": "7:209",
+      "to": "settings"
+    },
+    {
+      "id": "7:214",
+      "to": "login"
+    },
+    {
+      "id": "7:232",
+      "to": "settings"
+    },
+    {
+      "id": "7:239",
+      "to": "settings"
+    },
+    {
+      "id": "7:241",
+      "to": "settings"
+    },
+    {
+      "id": "7:246",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:259",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:265",
+      "to": "routes"
+    },
+    {
+      "id": "7:269",
+      "to": "settings"
+    },
+    {
+      "id": "7:274",
+      "to": "login"
+    },
+    {
+      "id": "7:292",
+      "to": "settings"
+    },
+    {
+      "id": "7:303",
+      "to": "settings"
+    },
+    {
+      "id": "7:305",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:310",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:323",
+      "to": "dashboard"
+    },
+    {
+      "id": "7:329",
+      "to": "routes"
+    },
+    {
+      "id": "7:333",
+      "to": "settings"
+    },
+    {
+      "id": "7:338",
+      "to": "login"
+    },
+    {
+      "id": "7:356",
+      "to": "editroute"
+    },
+    {
+      "id": "7:363",
+      "to": "editroute"
+    },
+    {
+      "id": "7:365",
+      "to": "routes"
+    }
+  ]
+}
