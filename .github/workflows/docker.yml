@@ -1,0 +1,40 @@
+name: Build and push Docker images
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        app: [backend, playground, frontend]
+    steps:
+      - name: Checkout workspace
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v4
+        with:
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build and push ${{ matrix.app }}
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: ${{ matrix.app }}/Dockerfile
+          push: true
+          tags: |
+            ${{ secrets.DOCKER_USER }}/api-mirror-${{ matrix.app }}:latest
+            ${{ secrets.DOCKER_USER }}/api-mirror-${{ matrix.app }}:${{ github.sha }}

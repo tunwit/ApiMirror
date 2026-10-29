@@ -7,3 +7,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/tunwit/ApiMirror-Backend.git
+[submodule "playground"]
+	path = playground
+	url = https://github.com/tunwit/ApiMirror-Playground.git

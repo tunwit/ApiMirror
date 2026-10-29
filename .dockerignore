@@ -1,0 +1,13 @@
+**/node_modules
+**/.next
+**/.git
+**/.env
+**/.env.*
+**/*.tsbuildinfo
+**/*.log
+**/coverage
+**/tests
+**/.codex
+**/.agents
+work
+test.js

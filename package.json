@@ -1,0 +1,10 @@
+{
+  "name": "apimirror",
+  "private": true,
+  "workspaces": ["backend", "playground", "packages/*"],
+  "scripts": {
+    "typecheck": "bun run --filter '@apimirror/database' --filter backend --filter playground typecheck",
+    "dev:playground": "bun run --filter playground dev",
+    "dev:backend": "bun run --filter backend dev"
+  }
+}

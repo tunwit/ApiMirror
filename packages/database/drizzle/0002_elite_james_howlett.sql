@@ -1,0 +1,2 @@
+ALTER TABLE "mock_route" DROP CONSTRAINT "mock_route_status_code_check";--> statement-breakpoint
+ALTER TABLE "mock_route" ADD CONSTRAINT "mock_route_status_code_check" CHECK ("mock_route"."status_code" BETWEEN 200 AND 599);

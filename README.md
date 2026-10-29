@@ -2,7 +2,9 @@
 
 ApiMirror uses Bun, Elysia, PostgreSQL and Drizzle in the backend, with Next.js and TanStack Query in the frontend. Better Auth handles username-and-password authentication.
 
-- `backend/`: Better Auth server, PostgreSQL connection, authentication schema and migrations. The API listens on port 3001; authentication endpoints live under `/api/auth`.
+- `packages/database/`: Shared Drizzle schemas, connection factory and migration history.
+- `backend/`: Better Auth server and management API, with its own configured database connection. The API listens on port 3001; authentication endpoints live under `/api/auth`.
+- `playground/`: Independent Elysia server on port 3002, with its own database pool. Currently exposes `/health`; mock execution is not implemented yet.
 - `frontend/`: Simple sign-in and create-account pages, a Better Auth React client, and a protected dashboard on one domain.
 
 ## Commands
@@ -17,13 +19,28 @@ docker compose up -d postgres
 
 `backend/.env` contains a generated local `BETTER_AUTH_SECRET` and local URLs. On a new checkout, copy `backend/.env.example` to `backend/.env` and replace the placeholder secret with a random value of at least 32 characters. Never commit `.env` files. You can set `DATABASE_URL` in `backend/.env` to override the root PostgreSQL settings.
 
-Inside `backend/`:
+Install the backend, playground and shared database dependencies from the repository root (they share the root `bun.lock`):
 
 ```sh
 bun install --frozen-lockfile
+```
+
+Inside `backend/`:
+
+```sh
 bun run db:migrate
 bun run dev
 ```
+
+The backend root (`http://localhost:3001/`) returns `ApiMirror Backend`; the frontend website runs on port 3000. Backend and playground dev scripts watch from the repository root so changes in `packages/database` also trigger restarts. You can start the backend from the root with `bun run dev:backend`.
+
+Start the playground in another terminal from the repository root:
+
+```sh
+bun run dev:playground
+```
+
+The playground reads the root PostgreSQL settings and optional `playground/.env` overrides; it does not require a Better Auth secret. Check `http://localhost:3002/health`. Set `PLAYGROUND_PORT` in the playground to change its listening port, and set `PLAYGROUND_URL` in the backend to the matching public URL used in project settings. See `playground/README.md` for details.
 
 Inside `frontend/`, in another terminal:
 
@@ -72,9 +89,9 @@ Backend routes can check a session with `auth.api.getSession({ headers: request.
 
 ## Verification and schema changes
 
-Run `bun run typecheck` in each app. In `backend/`, run `bun run test:auth` with PostgreSQL running to exercise the frontend client through Elysia against the database. Tests create uniquely named temporary users and remove their own records afterwards.
+Run `bun run typecheck` at the repository root for the backend, playground and database package, and separately in `frontend/` for the frontend.
 
-After changing the Drizzle schema, run `bun run db:generate`, review the generated SQL, then run `bun run db:migrate`. The initial migration includes `user`, `account`, `session`, and `verification`, including username fields. It has already been applied to the local database during setup.
+After changing the Drizzle schema in `packages/database/src/schema/`, run these commands from `backend/`: `bun run db:generate`, review the generated SQL, then run `bun run db:migrate`. The initial migration includes `user`, `account`, `session`, and `verification`, including username fields. It has already been applied to the local database during setup.
 
 Email verification, password reset email delivery, social sign-in and dashboard features are not configured.
 
